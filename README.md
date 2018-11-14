@@ -2,7 +2,6 @@
 Ionic hybrid app who notifies if there are pending activities in your own moodle 2.9 account.
 
 ## 1. Instalar el proyecto remoto por primera vez
------
 1.1. Forkear el proyecto **huasipango/moodle-espel-app** en su cuenta de 
 github.
 ![Ubicación del botón 
@@ -25,23 +24,29 @@ Revisar esta configuración con:
 *git remote -v*
 
 ## 2. Antes de programar
-------
+
 **Siempre** necesitamos crear ramas(branches) antes de empezar a 
 codificar.
+
 Los comando git necesarios son:
+
 2.1. git branch nueva-rama
+
 2.2. git checkout nueva-rama
 
 ## 3. Guardar avances (consola de comandos)
--------
+
 3.1. Actualizar repo local: *git fetch origin-root* 
+
 3.2. Añadir todos los cambios: *git add -A*
+
 3.3. Redactar un detalle del avance: *git commit -m 'mensaje de 
 explicación'*
+
 3.4. Publicar los cambios en el repo remoto: *git push*
 
 ## 4. Enviar avance a rama base (Pull Request)
-------
+
 Ir al repositorio remoto forkeado que a recibido nuestros cambios, ejm: 
 *https://github.com/huasipango/moodle-espel-app.git*
 
